@@ -1,0 +1,15 @@
+[workspace]
+members = ["programs/coinflip"]
+
+[programs.mainnet-beta]
+coinflip = "<PROGRAM_ID>"
+
+[programs.localnet]
+coinflip = "target/deploy/coinflip.so"
+
+[provider]
+cluster = "mainnet-beta"
+wallet = "~/.config/solana/id.json"
+
+[registry]
+url = "https://anchor.projectserum.com"

@@ -12,6 +12,7 @@ members = [
     "mcp-server",
     "mcp-types",
     "tui",
+    "coinflip-cli",
 ]
 
 [workspace.package]

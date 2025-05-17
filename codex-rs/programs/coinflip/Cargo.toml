@@ -1,0 +1,11 @@
+[package]
+name = "coinflip"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+anchor-lang = "0.29.0"
+anchor-spl = "0.29.0"
